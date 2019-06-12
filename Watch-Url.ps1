@@ -54,7 +54,7 @@ param(
 # better at helping the user figure out what they're doing wrong.
 
 $ErrorActionPreference = "Stop"
-Set-StrictMode -Version 5.0
+Set-StrictMode -Version 4.0
 
 if (!$Url) {
     throw "Must specify the Url parameter."
